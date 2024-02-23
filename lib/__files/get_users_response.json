@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "firstname": "Panji",
+    "lastname": "Maulana",
+    "age" : "26",
+    "email" : "panji@gmail.com"
+  },
+  {
+    "id": "2",
+    "firstname": "Rio",
+    "lastname": "Sinaga",
+    "age" : "25",
+    "email" : "rio@gmail.com"
+  },
+  {
+    "id": "3",
+    "firstname": "Fauzan",
+    "lastname": "Dwi",
+    "age" : "27",
+    "email" : "Fauzan@gmail.com"
+  }
+]

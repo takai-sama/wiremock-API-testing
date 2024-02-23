@@ -1,0 +1,19 @@
+{
+	"request": {
+		"method":"POST",
+		"url":"/api/users/",
+		"bodyPatterns": [
+			{"equalToJson" : "{ \"firstname\": \"Adi\", \"lastname\": \"Putra\", \"age\": \"25\",\"email\": \"adi@gmail.com\"}"
+			}]
+	},
+	"response":
+	{
+		"status": 201,
+		"headers":
+		{
+			"Content-Type" : "application/json",
+			"Accept": "application/json"
+		},
+		"bodyFileName":"../__files/post_users_response.json"
+	}
+}
