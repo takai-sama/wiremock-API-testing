@@ -1,0 +1,17 @@
+{
+	"request":
+	{
+		"method":"GET",
+		"urlPattern":"/api/users/[^1-4]"
+	},
+	"response":
+	{
+		"status":404,
+		"headers":
+		{
+			"Content-Type" : "application/json",
+			"Accept": "application/json"
+		},
+		"body": "{ \"message\": \"Data not found\"}"
+	}
+}

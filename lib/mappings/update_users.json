@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "PUT",
+    "url": "/api/users/4",
+    "bodyPatterns": [{
+      "equalToJson" : "{ \"firstname\": \"Adi-edit\", \"lastname\": \"Putra-edit\", \"age\": \"25\",\"email\": \"adi@gmail.com\"}"
+      }]
+  },
+  "response":
+  {
+    "status": 200,
+    "headers":
+    {
+      "Content-Type" : "application/json"
+    },
+    "bodyFileName":"../__files/put_users_response.json"
+  }
+}

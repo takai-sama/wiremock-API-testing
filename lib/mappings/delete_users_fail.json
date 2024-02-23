@@ -1,0 +1,12 @@
+{
+	"request":
+	{
+		"method":"DELETE",
+		"urlPattern":"/api/users/[^1-4]"
+	},
+	"response":
+	{
+		"status":404,
+		"body": "{ \"message\": \"Data not found\"}"
+	}
+}

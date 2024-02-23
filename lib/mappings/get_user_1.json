@@ -1,0 +1,16 @@
+{
+	"request":
+	{
+		"method":"GET",
+		"url":"/api/users/1"
+	},
+	"response":
+	{
+		"status":200,
+		"headers": {
+			"Content-Type": "application/json",
+			"Accept": "application/json"
+		},
+		"bodyFileName":"../__files/get_user_1_response.json"
+	}
+}
